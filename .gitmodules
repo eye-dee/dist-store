@@ -1,0 +1,6 @@
+[submodule "dist-database"]
+	path = dist-database
+	url = https://github.com/sausageRoll/dist-database.git
+[submodule "dist-gateway"]
+	path = dist-gateway
+	url = https://github.com/sausageRoll/dist-gateway.git
