@@ -1,0 +1,6 @@
+version: '3'
+services:
+  db1:
+    image: igc/database:latest
+    ports:
+    - "8080:8080"
