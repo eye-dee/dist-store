@@ -2,5 +2,16 @@ version: '3'
 services:
   db1:
     image: igc/database:latest
+    depends_on:
+      - gateway
+
+  db2:
+    image: igc/database:latest
+    depends_on:
+      - gateway
+
+  gateway:
+    image: igc/gateway:latest
     ports:
-    - "8080:8080"
+      - "6666:6666"
+      - "6060:6060"
