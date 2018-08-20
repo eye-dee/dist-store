@@ -4,3 +4,6 @@
 [submodule "dist-gateway"]
 	path = dist-gateway
 	url = https://github.com/sausageRoll/dist-gateway.git
+[submodule "dist-client"]
+	path = dist-client
+	url = https://github.com/sausageRoll/dist-client.git
