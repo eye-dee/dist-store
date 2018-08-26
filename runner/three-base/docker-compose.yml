@@ -1,0 +1,21 @@
+version: '3'
+services:
+  db1:
+    image: igc/database:latest7771
+    ports:
+    - "7771:7771"
+    depends_on:
+    - gateway
+
+  db2:
+    image: igc/database:latest7772
+    ports:
+      - "7772:7772"
+    depends_on:
+      - gateway
+
+  gateway:
+    image: igc/gateway:latest
+    ports:
+      - "6666:6666"
+      - "6060:6060"
